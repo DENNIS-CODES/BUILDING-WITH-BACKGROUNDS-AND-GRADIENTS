@@ -12,7 +12,7 @@ This project helped me master the concepts of using images as a background and a
 - Font Awesome
 
 ## CLONED PAGE
-apple.com
+[APPLE.COM](apple.com)
 
 ## Live Demo
 
