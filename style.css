@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-weight: normal;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    background: url(images/your_verse_hero_2x.jpg);
+    background-position: 50% 100%;
+    background-size: cover;
+    padding: 65px 200px;  
+}
+
+
+/* NAV BAR */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    font-size: 13px;
+    background-color: #555;
+    background-color: linear-gradient(#777 50%, #555 50%);
+    border-radius: 4px;
+}
+
+nav li {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #444;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+nav li a{
+    display: inline-block;
+    width: 100%;
+    padding: 0.6rem 0.8rem 0.4rem;
+    color: #ccc;
+    cursor: pointer;
+}
+
+nav li:not(:last-child):hover {
+    background-color: #444;
+}
+
+nav input{
+    widows: 100px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 0.125rem 0.5rem 0.125rem 1.5rem;
+    background-image: url('./images/magnify.svg');
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-color: inherit;
+    background-position: 5% 50%;
+}
+
+input:focus {
+    background-color: #f9f9f9;
+    background-image: url('./images/magnify2.svg');
+    outline: none;
+    width: 200px;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5 ease-in-out;
+}
+/* SECTION */
+section.lithuania{
+    color: #fff;
+    text-align: center;
+    padding: 30px 100px 60px;
+}
+
+section.lithuania a {
+    color: #fff;
+}
+
+/* FOOTER */
+footer {
+    font-size: 0.589em;
+    padding: 20px 180px;
+    color: #444;
+}
+footer a {
+    color: #08c;
+    font-size: 0.95em;
+    font-weight: 600;
+}
+
+.footer-menu a {
+    display: inline-block;
+    width: 100%;
+    padding: 0 0.4rem;
+    vertical-align: middle;
+    border-right: 1px solid #ccc;
+}
+div.address{
+    flex-basis: 50%;
+}
+
+div.footer-menu{
+    flex-basis: 50%;
+    align-items: center;
+}
+
+div.policy {
+    padding: 1rem 0;
+}
+
+a.no-border {
+    border: none;
+}
+
+aside ul {
+    width: 100%;
+}
+
+/* == Misc == */
+.flex{
+    display: flex;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.search {
+    padding: 0.4rem 0.8rem 0.3rem;
+    border: none;
+}
+
+.big-text {
+    font-size: 1.rem;
+}
+
+.clear-fix {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.brand-icon {
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.play-icon {
+    font-size: 32px;
+    vertical-align: middle;
+}
+
+.header,
+.sub-header,
+.description {
+    cursor: pointer;
+}
+
+.gallery {
+    width: 25%;
+    float: left;
+    cursor: pointer;
+}
+
+.location {
+    width: 28px;
+}
+
+.hover-underline:hover {
+    text-decoration: underline;
+}
